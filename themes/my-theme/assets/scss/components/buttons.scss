@@ -29,6 +29,7 @@
 .btn-outline-primary {
     @include button-outline-variant($soft-blue, $white);
     position: relative;
+    z-index: 1;
     overflow: hidden;
 
     &:hover::after {
@@ -51,6 +52,7 @@
 .btn-outline-red {
     @include button-outline-variant($soft-red, $white);
     position: relative;
+    z-index: 1;
     overflow: hidden;
 
     &:hover::after {
@@ -73,6 +75,7 @@
 .btn-outline-yellow {
     @include button-outline-variant($pastel-yellow, $white);
     position: relative;
+    z-index: 1;
     overflow: hidden;
 
     &:hover::after {
@@ -95,6 +98,7 @@
 .btn-outline-green {
     @include button-outline-variant($pastel-green, $white);
     position: relative;
+    z-index: 1;
     overflow: hidden;
 
     &:hover::after {
@@ -117,6 +121,7 @@
 .btn-outline-light-green {
     @include button-outline-variant($light-green, $white);
     position: relative;
+    z-index: 1;
     overflow: hidden;
 
     &:hover::after {
@@ -139,6 +144,7 @@
 .btn-outline-orange {
     @include button-outline-variant($orange-zest, $white);
     position: relative;
+    z-index: 1;
     overflow: hidden;
 
     &:hover::after {
@@ -161,6 +167,7 @@
 .btn-outline-deep-gray {
     @include button-outline-variant($deep-gray, $white);
     position: relative;
+    z-index: 1;
     overflow: hidden;
 
     &:hover::after {
@@ -183,6 +190,7 @@
 .btn-outline-black {
     @include button-outline-variant($black, $white);
     position: relative;
+    z-index: 1;
     overflow: hidden;
 
     &:hover::after {
@@ -205,6 +213,7 @@
 .btn-outline-pink {
     @include button-outline-variant($pink-heliotrope, $white);
     position: relative;
+    z-index: 1;
     overflow: hidden;
 
     &:hover::after {
@@ -227,6 +236,7 @@
 .btn-outline-gray {
     @include button-outline-variant($dark-gray, $white);
     position: relative;
+    z-index: 1;
     overflow: hidden;
 
     &:hover::after {
@@ -257,7 +267,7 @@
         box-shadow: 0 0 0 0.2rem lighten($color: $soft-red, $amount: 10)
     }
     &:hover {
-        background-color: darken($color:  $soft-red, $amount: 5)
+        background-color: darken($color:  $soft-red, $amount: 30);
     }
 }
 
@@ -265,10 +275,10 @@
     background-color: $pastel-yellow;
     color: $white;
     &:focus {
-        box-shadow: 0 0 0 0.2rem lighten($color: $pastel-yellow, $amount: 10)
+        box-shadow: 0 0 0 0.2rem lighten($color: $pastel-yellow, $amount: 10);
     }
     &:hover {
-        background-color: darken($color:  $pastel-yellow, $amount: 10)
+        background-color: darken($color:  $pastel-yellow, $amount: 10);
     }
 }
 
@@ -277,10 +287,10 @@
     background-color: $pastel-green;
     color: $white;
     &:focus {
-        box-shadow: 0 0 0 0.2rem lighten($color: $pastel-green, $amount: 10)
+        box-shadow: 0 0 0 0.2rem lighten($color: $pastel-green, $amount: 10);
     }
     &:hover {
-        background-color: darken($color:  $pastel-green, $amount: 10)
+        background-color: darken($color:  $pastel-green, $amount: 10);
     }
 }
 
@@ -288,10 +298,10 @@
     background-color: $light-green;
     color: $white;
     &:focus {
-        box-shadow: 0 0 0 0.2rem lighten($color: $light-green, $amount: 10)
+        box-shadow: 0 0 0 0.2rem lighten($color: $light-green, $amount: 10);
     }
     &:hover {
-        background-color: darken($color:  $light-green, $amount: 10)
+        background-color: darken($color:  $light-green, $amount: 10);
     }
 }
 
